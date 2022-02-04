@@ -49,16 +49,11 @@
         <li><a href="#creating-an-api-gateway">Creating an API Gateway</a></li>
         <li><a href="#connecting-lambda-function-to-api-gateway">Connecting Lambda function to API Gateway</a></li>
         <li><a href="#setting-webhooks">Setting Webhooks</a></li>
-        <li><a href="#adding-code-to-lambda-function"><li><a href="#setting-webhooks">Adding Code to Lambda Function</a></li></a></li>
-        <li><a href="#testing"><li><a href="#setting-webhooks">Testing</a></li></a></li>
+        <li><a href="#adding-code-to-lambda-function"><a href="#setting-webhooks">Adding Code to Lambda Function</a></li>
+        <li><a href="#testing"><a href="#setting-webhooks">Testing</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
