@@ -20,7 +20,7 @@
 
   <p align="center">
     <br />
-    <i>In this guide I will demonstrate making a simple serveless Telegram bot that echoes everything <br />
+    <i>In this guide I will demonstrate making a simple serverless Telegram bot that echoes everything <br />
       a user inputs and replies with the message reversed, using AWS API Gateway and AWS Lambda.</i>
     <br />
     <br />
@@ -45,11 +45,11 @@
     <li>
       <a href="#setup-guide">Getting Started</a>
       <ul>
-        <li><a href="#telegram-bot-setup">Telegram Bot Setup</a></li>Setting Webhooks
+        <li><a href="#telegram-bot-setup">Telegram Bot Setup</a></li>
         <li><a href="#creating-an-api-gateway">Creating an API Gateway</a></li>
         <li><a href="#connecting-lambda-function-to-api-gateway">Connecting Lambda function to API Gateway</a></li>
         <li><a href="#setting-webhooks">Setting Webhooks</a></li>
-        <li><a href="#adding-code-to-lambda-function"><li><a href="#setting-webhooks">Setting Webhooks</a></li></a></li>
+        <li><a href="#adding-code-to-lambda-function"><li><a href="#setting-webhooks">Adding Code to Lambda Function</a></li></a></li>
         <li><a href="#testing"><li><a href="#setting-webhooks">Testing</a></li></a></li>
       </ul>
     </li>
@@ -68,18 +68,13 @@
 ## About The Project
 Detailed instructions on how to setup a telegram bot and provide integration with Amazon Web Service (AWS) serverless functions.
 Functionally this project takes any message sent to the telegram bot and replies with the reverse of the message.
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 ### Built With
-
 * [Python](https://www.python.org/)
 * [AWS Lambda](https://console.aws.amazon.com/lambda/home?region=us-east-1#/discover)
 * [AWS API Gateway](https://console.aws.amazon.com/apigateway/main/apis?region=us-east-1)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -116,9 +111,9 @@ Before being able to create an API Gateway An Amazon Web Services account is req
 Return to <a href="https://aws.amazon.com/">AWS Console</a> and search for and select Lambda Service
 
 1. Select "Create Function"
-2. Chose 'Author from scratch'
+2. Choose 'Author from scratch'
 3. Enter Basic Information - Function Name and Language, for this guide select Python 3.6
-4. Chose 'Change default execution role' from the Permissions header 
+4. Choose 'Change default execution role' from the Permissions header 
 5. Next apply the setting found in the screenshot below:
 
 ![role---Copy-ConvertImage](https://user-images.githubusercontent.com/74079455/152596274-40f01010-8c36-4ff6-b672-face9f5aa216.png)
@@ -157,13 +152,12 @@ Return to <a href="https://aws.amazon.com/">AWS Console</a> and search for and s
   `https://api.telegram.org/bot(your-bot-token)/setWebHook?url=(your-API-invoke-URL)`
   
   <i>Note:</i><br  />
-  <i> Replace (your-bot-token) with the API Token stored in  <a href="#telegram-bot-setup">Telegram Bot setup</a><br  />
-  <i> Replace (your-API-invoke-URL) with the invoke URL stored from  <a href="#connecting-lambda-function-to-api-gateway">Connecting Lambda function to API Gateway</a>
-    
-    
-    
-    
-    
+  <i> Replace (your-bot-token) with the API Token stored in  <a href="#telegram-bot-setup">Telegram Bot setup</a><br  /></i>
+  <i> Replace (your-API-invoke-URL) with the invoke URL stored from  <a href="#connecting-lambda-function-to-api-gateway">Connecting Lambda function to API Gateway</a></i>
+<br  />
+<br  />
+     
+  
 ### Adding code to Lambda function
 
 Return to <a href="https://aws.amazon.com/">AWS Console</a> and search for and select <b>Lambda</b> From the services
@@ -220,7 +214,7 @@ def lambda_handler(event, context):
 
 Email - ianambrose@pm.me
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/IanAmbrose/telegram-lambda-bot-)
+Project Link: https://github.com/IanAmbrose/telegram-lambda-bot-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
