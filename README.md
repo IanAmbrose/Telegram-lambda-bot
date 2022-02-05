@@ -76,7 +76,6 @@ Functionally this project takes any message sent to the telegram bot and replies
 * [AWS Lambda](https://console.aws.amazon.com/lambda/home?region=us-east-1#/discover)
 * [AWS API Gateway](https://console.aws.amazon.com/apigateway/main/apis?region=us-east-1)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
