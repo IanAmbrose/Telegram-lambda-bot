@@ -84,8 +84,7 @@ Functionally this project takes any message sent to the telegram bot and replies
 <!-- GETTING STARTED -->
 ## Setup Guide
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is a step-by-step guide on how to Setup a telegram bot, Lambda and API gateway to successfully setup a reverse message telegram bot.
 
 ### Telegram Bot Setup
 
