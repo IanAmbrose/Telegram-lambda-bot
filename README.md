@@ -107,7 +107,6 @@ Before being able to create an API Gateway An Amazon Web Services account is req
 ![new-API-ConvertImage](https://user-images.githubusercontent.com/74079455/152593667-eadb0a16-7ef1-4509-9ecd-94206dd74fc9.png)
   
 
-
 ### Creating a lambda function
 
 Return to <a href="https://aws.amazon.com/">AWS Console</a> and search for and select Lambda Service
@@ -120,9 +119,7 @@ Return to <a href="https://aws.amazon.com/">AWS Console</a> and search for and s
 
 ![role---Copy-ConvertImage](https://user-images.githubusercontent.com/74079455/152596274-40f01010-8c36-4ff6-b672-face9f5aa216.png)
   
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 ### Connecting Lambda function to API Gateway
 
@@ -214,7 +211,7 @@ def lambda_handler(event, context):
 
 Email - ianambrose@pm.me
 
-Project Link: https://github.com/IanAmbrose/telegram-lambda-bot-
+Project Link - https://github.com/IanAmbrose/telegram-lambda-bot-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
