@@ -20,8 +20,8 @@
 
   <p align="center">
     <br />
-    <i>In this guide I will demonstrate making a simple serverless Telegram bot that echoes everything <br />
-      a user inputs and replies with the message reversed, using AWS API Gateway and AWS Lambda.</i>
+    <i>This guide will demonstrate how to make a serverless Telegram bot using AWS API Gateway and AWS Lambda. <br />
+      The bot will reply to telegram messages with the reverse of the message.</i>
     <br />
     <br />
     <br />
