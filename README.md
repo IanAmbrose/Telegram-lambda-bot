@@ -25,8 +25,9 @@
     <br />
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
+    <details>
+      <summary>View Demo</summary>
+    </details>
   </p>
 </div>
 
