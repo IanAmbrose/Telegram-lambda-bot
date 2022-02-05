@@ -89,9 +89,9 @@ This is a step-by-step guide on how to Setup a telegram bot, Lambda and API gate
 ### Telegram Bot Setup
 
 To continue with this guide, you will need to have a telegram bot setup
-1. Open a new message on telegram with the user "BotFather"
-2. Message BotFather with "/newbot"
-3. Take note of the HTTP API key:
+1. Open a new message on telegram with the user <b>"BotFather"</b>
+2. Message BotFather with <b>"/newbot"</b>
+3. Take note of the <b>HTTP API key:</b>
    
 ![API](https://user-images.githubusercontent.com/74079455/152599353-def39406-fc00-4b52-8f37-8d4a80a17133.png)
 <br></br>
@@ -101,8 +101,8 @@ To continue with this guide, you will need to have a telegram bot setup
 Before being able to create an API Gateway An Amazon Web Services account is required a free tier can be created at  <a href="https://aws.amazon.com/">AWS Console</a> 
 
 1. Once singed into AWS (Amazon Web Service), Search for <b> API GATEWAY</b>
-2. Select REST API
-3. Select New API, Enter a API Name & Description and select Create API
+2. Select <b>REST API (Public)</b>
+3. Select <b>New API</b>, Enter a <b>API Name & Description</b> and select <b>Create API</b>
   
 ![new-API-ConvertImage](https://user-images.githubusercontent.com/74079455/152593667-eadb0a16-7ef1-4509-9ecd-94206dd74fc9.png)
   
@@ -111,10 +111,10 @@ Before being able to create an API Gateway An Amazon Web Services account is req
 
 Return to <a href="https://aws.amazon.com/">AWS Console</a> and search for and select Lambda Service
 
-1. Select "Create Function"
-2. Choose 'Author from scratch'
-3. Enter Basic Information - Function Name and Language, for this guide select Python 3.6
-4. Choose 'Change default execution role' from the Permissions header 
+1. Select <b>"Create Function"</b>
+2. Choose <b>'Author from scratch'</b>
+3. Enter Basic Information - <b>Function Name and Language</b>, for this guide select <b>Python 3.6</b>
+4. Choose <b>'Change default execution role'</b> from the Permissions header 
 5. Next apply the setting found in the screenshot below:
 
 ![role---Copy-ConvertImage](https://user-images.githubusercontent.com/74079455/152596274-40f01010-8c36-4ff6-b672-face9f5aa216.png)
@@ -129,15 +129,13 @@ Return to <a href="https://aws.amazon.com/">AWS Console</a> and search for and s
 2. Select the "Actions" drop down menu, and select <b>"Create Method"</b>
 3. From there you will see a <b>"/"</b>, click this and select <b>"ANY"</b>
 4. Now hit the check sign next to <b>"ANY"</b>
-5. From Here choose <b>"Lambda Function"<b> for the intergration type and select <b>"Use Lambda Proxy Integration"<b>
+5. From Here choose <b>"Lambda Function"</b> for the intergration type and select <b>"Use Lambda Proxy Integration"</b>
 6. Then insert a Lambda Function name and <b>click save</b>
 7. Then from the "Actions" Drop down select <b>"Deploy API"</b>
 8. Select <b>"New Stage"</b> and select a stage name e.g<b>"Beta"</b>
 9. Once your API is deployed you will get a <b>"Invoke URL"</b> - <i>(click the link and it should display "Hello from Lambda!")</i>
   10. Store the <b>"Invoke URL"</b> as its needed for setting up webhooks
   
-
-![role---Copy-ConvertImage](https://user-images.githubusercontent.com/74079455/152596274-40f01010-8c36-4ff6-b672-face9f5aa216.png)
   
 
   
