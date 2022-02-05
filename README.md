@@ -23,8 +23,7 @@
     <i>This guide will demonstrate how to make a serverless Telegram bot using AWS API Gateway and AWS Lambda. <br />
       The bot will reply to telegram messages with the reverse of the message.</i>
     <br />
-    <br />
-    <br />
+
     <details>
       <summary>View Demo</summary>
       <br  />
