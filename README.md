@@ -27,9 +27,15 @@
     <br />
     <details>
       <summary>View Demo</summary>
+      <br  />
+    <img src="https://user-images.githubusercontent.com/74079455/152621899-c6982991-f274-4881-8f17-ebb740b7ab96.gif" alt="funny GIF" width="50%">
     </details>
   </p>
 </div>
+
+
+
+
 
 
 
