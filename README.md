@@ -195,9 +195,9 @@ def lambda_handler(event, context):
    ### Testing
     
    
-  Return to Telegram and open messages with <b>"BotFather"</b> and now click the link at the top of the "Congratulations" message.
-  This will take you to your bots messages,<br  />
-  Now test your bot now works by messaging sending a message, you should see a response from the bot.<br  />
+  Return to Telegram and open messages with <b>"BotFather"</b> and now click the link at the top of the <b>"Congratulations"</b> message.<br  />
+  This will take you to your bots messages.<br  />
+  Sending a message, you should see a response from the bot.<br  />
   
 ![image](https://user-images.githubusercontent.com/74079455/152615748-699e712b-007b-41a5-b8ec-e0980c297ce8.png)
 
